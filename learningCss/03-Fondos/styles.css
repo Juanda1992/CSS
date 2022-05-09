@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+    background-image: url("img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;/*Este es para que la imagen se quede fija cuando le damos scroll*/
+    background-position: left;/*Este es para fijar una parte de la imagen en la pantalla y conserve en ese lugar*/
+}
+
+#caja{
+    background-color: violet;
+    border:5px solid black;
+    color:aliceblue;
+    padding: auto;
+
+}
+
+h2{
+    color: greenyellow;
+    background-color: violet;
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

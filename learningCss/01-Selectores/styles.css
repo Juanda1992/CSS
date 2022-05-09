@@ -1,0 +1,89 @@
+body{
+    background-color: #ccc;
+}
+
+
+
+/*Selectores*/
+
+/*Selector universal*/
+
+*{
+    /*Tipo de letra*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Margen externo*/
+    /* margin: 0px;
+    /*Margen interno
+    padding: 0px; */
+    
+}
+
+/*Selector de etiqueta*/
+
+h1{
+    color:blue;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px blue;
+    text-decoration: underline;
+}
+
+/*Selector de etiqueta anidado*/
+
+footer a{
+    color: blueviolet;
+}
+
+/*Selector de id #*/
+
+#description{
+    border: 1px  solid black;
+}
+
+/*Selector de clase .*/
+
+.parrafo{
+    font-style: italic;
+}
+
+/*Selector de atributo*/
+
+#usuario form{
+    border: 5px solid salmon;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type ="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+/*Selector hijo
+Accedemos al atributo y luego mediante > accedemos a la etiqueta y > para acceder a otra etiqueta*/
+
+#menu >li >a {
+    font-size: medium;
+    color: royalblue;
+    text-decoration: dotted;
+}
+
+/*Prioridad css da prioridad a las indicaciones mas especificas, mientras mas especifico seas mas conveniente sera  */
+/*Si queremos dar prioridad inmediata podemos agregar un !important*/
+#saludo h1{
+    background-color: purple !important;
+}

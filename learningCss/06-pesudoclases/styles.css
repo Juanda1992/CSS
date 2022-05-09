@@ -1,0 +1,42 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/*Pseudoclases*/
+
+ul li:first-child{
+    color: blueviolet;
+}
+
+ul li:nth-child(3){
+    color: yellowgreen;
+}
+
+ul li::first-letter{
+    color: aqua;
+
+}
+
+#mi-enlace:link{
+    color: red;
+}
+
+#mi-enlace:visited{
+    color: red;
+}
+
+#mii-enlace:active{
+    color: burlywood;
+    font-family: serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+   border: 4px dashed blue;
+}

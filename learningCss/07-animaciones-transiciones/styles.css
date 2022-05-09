@@ -1,0 +1,22 @@
+#boton{
+    display: block;
+    padding: 20px;
+    background-color: aquamarine;
+    color: brown;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold;
+    text-decoration: wavy;
+    border: 2px solid rgb(32, 58, 32);
+    /*Transition when to mouse goes over the bottom*/
+    transition: 1s;
+    /*"animated transition"*/
+    transition: border 500ms, background 3s, border-radius;
+}
+
+#boton:hover{
+    border-radius: 15px;
+    background-color: rgb(83, 134, 118);
+    border: 2px solid orangered;
+}

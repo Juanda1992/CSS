@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 40px;
+    border: 1px solid black;
+}
+
+#cajas{
+    /*Con este jugamos con el ancho de la caja para ubicar
+    x cantidad de cajas que deseemos*/
+    max-width: 1080px;
+}
+.caja{
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid lemonchiffon;
+    /*Margen externo*/
+    margin: 15px;   
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    /*Margen interior*/
+    padding: 20px;
+    padding-bottom: 50px;
+    /*Esto nos sirve para hacer flotar las cajas la una al lado del otro*/
+    float: left;
+}
+
+.caja p{
+    /*negrilla*/
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*para centrar el contenido*/
+    line-height: 235px;
+}
+
+.clearfix{
+    float:none;
+    clear: both;
+}

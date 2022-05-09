@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+    /*Colores del sistema*/
+    color:aquamarine;
+    /*Color exadecimal*/
+    color: #ccc;
+    /*Color RGB*/
+    color: rgb(255, 255, 255);
+    /*Color RGBA se le agrega un4to parametro que es la opacidad*/
+    color :rgba(255, 255, 255, 0.5)
+}
+
+h3{
+    font-family:'Hurricane', cursive;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+
