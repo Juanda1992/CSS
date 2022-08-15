@@ -547,7 +547,7 @@ transition: all 300ms;
 }
 
 #articles article{
-    width: 100%;
+    width: 98%;
     height: auto;
     border: 1px solid #ccc;
     margin: 40px auto;
